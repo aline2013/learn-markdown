@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    #pasteArea {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <p>测试文本 测试文本 测试文本 测试文本 测试文本 测试文本</p>
+  <p id="replace">lallal </p>
+  <img src="cat1.jpg">
+  <div>  
+    <div id="pasteArea" contenteditable="true">
+      <p><br></p>
+    </div>
+  </div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">
+    $('#pasteArea').on('paste', function(e) {
+      var data = e.clipboardData || e.originalEvent.clipboardData;
+      // var data = window.clipboardData;
+      var text = data.getData('text/plain');
+      var html = data.getData('text/html');
+      console.log(text);
+      console.log(html);
+      var $pasteData = $(html);
+      handle($pasteData);
+    });
+
+    function handle(elem) {
+      if (!elem || !elem.nodeType || !elem.nodeName) {
+        return;
+      }
+      var html;
+      $.each(elem, function(key, value) {
+        if (value.nodeName == 'IMG') {
+          debugger;
+        }
+      });
+    }
+  </script>
+</body>
+</html>
