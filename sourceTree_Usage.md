@@ -1,4 +1,5 @@
 # sourceTree安装与使用（编辑）
+- SourceTree是一款基于界面的git版本控制软件，支持add、commit、clone、push、pull 和merge等操作，操作也比较简单
 ## 安装
 1. 官网[https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)下载软件
 2. 安装到电脑，需要Alan
