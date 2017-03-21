@@ -10,4 +10,4 @@ to sum up my knowledge
 - [图片懒加载](/图片懒加载／readme.md)
 - [几种css实现的气泡框](/几种css实现的气泡框/readme.md)
 - [ClipboardData](/ClipboardData/readme.md)
-- [时间处理(Date)](／时间处理(Date).md)
+- [时间处理(Date)](/时间处理(Date).md)
