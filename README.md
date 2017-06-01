@@ -7,6 +7,7 @@ to sum up my knowledge
 - [移动端处理](移动端处理.md)
 - [image-set方法和img标签属性srcset,sizes](/image-set&img[srcset,sizes]/readme.md)
 - [块级格式上下文-BFC](/BFC/readme.md)
+- [浏览器中元素位置](/浏览器中元素位置/readme.md)
 - [图片懒加载](/图片懒加载／readme.md)
 - [几种css实现的气泡框](/几种css实现的气泡框/readme.md)
 - [ClipboardData](/ClipboardData/readme.md)
